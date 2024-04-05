@@ -6,12 +6,18 @@
     height: auto;
     margin-bottom: 1rem;
 }
+.menu, .menu-icons{
+    display: flex;
+    justify-content: center;
+}
 
 .menu{
-    display: flex;
     width: 75%;
-    justify-content: center;
     column-gap: 2rem;
+}
+
+.menu-icons{
+    column-gap: 3px;
 }
 
 .nav-logo{
@@ -24,14 +30,16 @@
     margin-left: 1rem;
 }
 
-a{
+.a-menu{
+    display: flex;
+    justify-content: center;
     font-family: bold;
     text-decoration: none;
     padding: 0 6px; 
-    width: 90px;   
+    width: 70px;   
 }
 
-a:hover{
+.a-menu:hover{
     background-color: #EDA836;
     border-radius: 40%;
 }

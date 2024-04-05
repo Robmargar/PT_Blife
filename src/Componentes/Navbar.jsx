@@ -4,13 +4,15 @@ export const Navbar = () => {
   return (
     <section>
       <div class="navbar">
-        <img class="blife-logo" src="../../public/Navbar/Blife.png" alt="" />
+        <a href="">
+         <img class="blife-logo" src="../../public/Navbar/Blife.png" alt="" />
+        </a>
         <div class="menu">
-          <a href="">Productos</a>
-          <a href="">Promociones</a>
-          <a href="">Nosotros</a>
+          <a class="a-menu" href="">Productos</a>
+          <a class="a-menu" href="">Promociones</a>
+          <a class="a-menu" href="">Nosotros</a>
         </div>
-        <div >
+        <div class="menu-icons">
           <button class="nav-button" >
            <img class="nav-logo" src="../../public/Navbar/lupa.png" alt="Logo_busqueda" />
           </button >
