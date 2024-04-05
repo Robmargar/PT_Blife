@@ -2,6 +2,12 @@ import React from 'react'
 
 export const Card = () => {
   return (
-    <div>Card</div>
+    <article>
+      <img src="" alt="" />
+      <div>
+        
+      </div>
+
+    </article>
   )
 }

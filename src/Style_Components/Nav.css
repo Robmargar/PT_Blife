@@ -1,0 +1,43 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.menu{
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    column-gap: 2rem;
+}
+
+.nav-logo{
+    height: 1rem;
+    width: 1rem;
+}
+
+.blife-logo{
+    height: 2rem;
+    margin-left: 1rem;
+}
+
+a{
+    font-family: bold;
+    text-decoration: none;
+    padding: 0 6px; 
+    width: 90px;   
+}
+
+a:hover{
+    background-color: #EDA836;
+    border-radius: 40%;
+}
+
+.nav-button{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}

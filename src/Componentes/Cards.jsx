@@ -14,11 +14,11 @@ export const Cards = () => {
       <div>
         <p>COMPARTE</p>
         <div>
-          <img src="" alt="Facebook" />
-          <img src="" alt="X" />
-          <img src="" alt="Instagram" />
+          <img csrc="../../public/Card/facebook-logo.png" alt="Facebook" />
+          <img src="../../public/Card/x-logo.png" alt="X" />
+          <img src="../../public/Card/insta-logo.png" alt="Instagram" />
         </div>
-        <button>Agregar</button>
+        <button class="card-button">Agregar</button>
       </div>
 
     </section>
