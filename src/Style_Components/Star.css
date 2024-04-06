@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    margin-top: 15px;
+    align-items: end;
+    justify-content: start;
+}
+
+.star{
+    font-size: 12px;
+    color: #bbb;
+    cursor: pointer;
+    transition: color 0.5ms;
+}
+
+.star:hover,
+.star.checked{
+    color: #EDA836;
+}
