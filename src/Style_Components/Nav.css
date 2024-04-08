@@ -53,3 +53,28 @@
     border: none;
     cursor: pointer;
 }
+
+.container{
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.container:hover input{
+    width: 200px;}
+
+input{
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid hsl(0, 0%, 88%);
+    transition: all .7s ease;
+}
+
+
+.btn{
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+
+}

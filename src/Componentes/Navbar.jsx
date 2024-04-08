@@ -13,9 +13,12 @@ export const Navbar = () => {
           <a class="a-menu" href="">Nosotros</a>
         </div>
         <div class="menu-icons">
-          <button class="nav-button" >
-           <img class="nav-logo" src="../../public/Navbar/lupa.png" alt="Logo_busqueda" />
-          </button >
+          <div class="nav-button container" >
+            <input type="text" placeholder="Buscar" />
+            <div class="btn">
+              <img class="nav-logo" src="../../public/Navbar/lupa.png" alt="Logo_busqueda" />
+            </div>
+          </div>
           <button class="nav-button" >
             <img class="nav-logo" src="../../public/Navbar/user.png" alt="Logo_Inicio_Sesión" />
           </button>
