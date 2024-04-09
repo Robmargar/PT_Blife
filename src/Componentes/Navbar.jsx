@@ -1,5 +1,6 @@
 import "../Style_Components/Nav.css"
 
+
 export const Navbar = () => {
   return (
     <section>
@@ -13,10 +14,10 @@ export const Navbar = () => {
           <a class="a-menu" href="">Nosotros</a>
         </div>
         <div class="menu-icons">
-          <div class="nav-button container" >
+          <div class="container" >
             <input type="text" placeholder="Buscar" />
             <div class="btn">
-              <img class="nav-logo" src="../../public/Navbar/lupa.png" alt="Logo_busqueda" />
+              <img class="nav-logo search" src="../../public/Navbar/lupa.png" alt="Logo_busqueda" />
             </div>
           </div>
           <button class="nav-button" >
@@ -30,3 +31,4 @@ export const Navbar = () => {
     </section>
   )
 }
+  

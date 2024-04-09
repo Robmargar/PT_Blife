@@ -1,13 +1,34 @@
+import { useState } from "react"
 import { Stars } from "./Stars"
 import "../Style_Components/Card.css"
+import "../Functions/likes.js"
 
-export const Card = ({name ,description, price,old_price,discount,likes,rating }) => {
+export const Card = ({name ,description, price,old_price,discount,likes,rating}) => {
+  const [like,setLike]=useState({
+    number:likes,
+    isactive:false
+  });
+  
+  const likesCount=()=>{
+    const newLike={...like}
+    if(like.isactive){
+      newLike.number--;
+      newLike.isactive=!newLike.isactive;
+      setLike(newLike);
+    }else{
+      newLike.number++;
+      newLike.isactive=!newLike.isactive;
+      setLike(newLike);
+    }
+  };
   return (
     <div class="card">
        <section class="likes-cont">
-          <div class="like">
+          <div onClick={()=>likesCount()} class="like">
+            {like.isactive?<img class="heart" src="../../public/Card/red-heart.svg" alt="" />:
             <img class="heart" src="../../public/Card/Heart Icon.png" alt="" />
-            <div>{likes}</div>
+            }
+            <div class="likes-number">{like.number}</div>
           </div>
           <div class="prom">
             {discount}
@@ -32,9 +53,15 @@ export const Card = ({name ,description, price,old_price,discount,likes,rating }
           <div class="media-info">
             <p class="T2">COMPARTE</p>
             <div class="media-icons">
-              <img src="../../public/Card/facebook-logo.png" alt="Facebook" />
-              <img src="../../public/Card/x-logo.png" alt="X" />
-              <img src="../../public/Card/insta-logo.png" alt="Instagram" />
+              <a href="">
+               <img src="../../public/Card/facebook-logo.png" alt="Facebook" />
+              </a>
+              <a href="">
+                <img src="../../public/Card/x-logo.png" alt="X" />
+              </a>
+              <a href="">
+                <img src="../../public/Card/insta-logo.png" alt="Instagram" />
+              </a>
             </div>
           </div>
           <button class="card-button">Agregar</button>

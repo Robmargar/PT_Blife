@@ -8,6 +8,7 @@ export const Cards = () => {
     {
       products.map((p)=>(
          <Card
+            key={p.id}
             name={p.name}
             description={p.description}
             price={p.price}
