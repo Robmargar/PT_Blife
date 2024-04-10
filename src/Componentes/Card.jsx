@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { Stars } from "./Stars"
+import { Carrusel } from "./Carrusel.jsx"
 import "../Style_Components/Card.css"
-import "../Functions/likes.js"
 
 export const Card = ({name ,description, price,old_price,discount,likes,rating}) => {
   const [like,setLike]=useState({
@@ -36,7 +36,7 @@ export const Card = ({name ,description, price,old_price,discount,likes,rating})
         </section>
       <article class="card-container">
         <section class="product-container" >
-          <img class="product-img" src="../../public/Card/citrate-mag.png" alt="" />
+          <Carrusel/>
           <div class="product-info">
             <div class="info-1">
               <div class="T1">{name}</div>

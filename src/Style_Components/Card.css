@@ -23,8 +23,8 @@
 
 .product-img{
     width: 304px;
-    margin-top: 18px;
-    margin-left: 18px;
+    margin: 18px 18px 13px 18px;
+  
 }
 .product-info{
     display: grid;

@@ -1,0 +1,46 @@
+.containerImg{
+    position: relative;
+    display: flex;
+    width: 304px;
+    margin: 18px 18px 13px 18px;
+    overflow: hidden;
+    scroll-snap-type:x mandatory;
+}
+
+.containerImg img{
+    width: 100%;
+    position: sticky;
+    object-fit: cover;
+    scroll-snap-align: center;
+}
+
+.containerDots{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 84px;
+    height: 32px;
+    bottom: 220px;
+    right: 140px;
+    background: #ffffff;
+    border: 1px solid #E1E1E1;
+    border-radius: 20px;
+    z-index: 200;
+}
+
+.dots, .dotSelected{
+    border-radius: 50px;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+}
+
+.dots{
+    background: #E1E1E1 ;
+}
+
+.dots:hover, .dotSelected{
+    background: #000000;
+}
