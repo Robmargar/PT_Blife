@@ -2,13 +2,21 @@
     position: relative;
     display: flex;
     width: 304px;
+    height: 304px;
     margin: 18px 18px 13px 18px;
     overflow: hidden;
+    justify-content:center;
+    align-items:center;
     scroll-snap-type:x mandatory;
 }
 
+.productImag{
+    width: 304px;
+    height: 304px;
+}
+
 .containerImg img{
-    width: 100%;
+    width: fit-content;
     position: sticky;
     object-fit: cover;
     scroll-snap-align: center;

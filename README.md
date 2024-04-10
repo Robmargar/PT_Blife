@@ -1,8 +1,32 @@
-# React + Vite
+# Blife "Prueba Técnica"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Roberto Martínez García
 
-Currently, two official plugins are available:
+El proyecto fue recrear el Frontend proporcionado por Blife ["Proyecto"](https://www.figma.com/file/IuLObxCwhPnP1h5vSIkXvH/Examen-Blife-Frontend?type=design&node-id=0-1&mode=design&t=Q4NrhQFh6rrrDiQp-0), las tecnologías con las que fue desarrollado son:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- JavaScript
+- CSS
+- React
+
+En el proyecto se agregaron funcionalidades tales como:.
+
+- Buscador.
+- Like (corazón).
+- Selector de Estrellas.
+- Carrusel de Imágenes.
+
+## Buscador
+
+En parte de extrema derecha de la barra de navegación encontramos el icono del buscador, al colocar el cursor sobre el aparece el buscador como se observa en las imagenes siguientes.
+
+#### INICIAL
+
+![](../PT_Blife/public/Readme/Buscar-inicial.JPG/)
+
+#### CON EL CURSOR
+
+![](./public/Readme/Buscar-final.JPG)
+
+## Like, Selector de Estrellas y Carrusel de Imágenes
+
+![](./public/Readme/Cards.JPG)

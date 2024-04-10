@@ -1,6 +1,7 @@
 .contenedor{
     display: flex;
     position: relative;
+    width: 100%;
 }
 
 .fondo-image{

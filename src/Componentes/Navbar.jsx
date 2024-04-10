@@ -24,6 +24,7 @@ export const Navbar = () => {
             <img class="nav-logo" src="../../public/Navbar/user.png" alt="Logo_Inicio_Sesión" />
           </button>
           <button class="nav-button" >
+            <div class="shop-number">2</div>
             <img class="nav-logo" src="../../public/Navbar/Shop.png" alt="Logo_Mi_Tienda" />
           </button>
         </div>

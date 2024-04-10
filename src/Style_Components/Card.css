@@ -101,11 +101,17 @@
     border: 1px solid #EDA836;
     border-radius: 20px;    
     margin-left: 25px;
+    cursor: pointer;
+}
+
+.card-button:hover{
+    background: #e3e3e3;
 }
 
 .likes-cont{
     display: flex;
     position: absolute;
+    z-index: 200;
 }
 
 .like{

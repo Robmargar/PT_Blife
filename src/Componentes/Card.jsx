@@ -21,6 +21,7 @@ export const Card = ({name ,description, price,old_price,discount,likes,rating})
       setLike(newLike);
     }
   };
+
   return (
     <div class="card">
        <section class="likes-cont">
@@ -28,7 +29,7 @@ export const Card = ({name ,description, price,old_price,discount,likes,rating})
             {like.isactive?<img class="heart" src="../../public/Card/red-heart.svg" alt="" />:
             <img class="heart" src="../../public/Card/Heart Icon.png" alt="" />
             }
-            <div class="likes-number">{like.number}</div>
+            <div>{like.number}</div>
           </div>
           <div class="prom">
             {discount}

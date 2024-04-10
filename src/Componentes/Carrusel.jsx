@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react'
 import "../Style_Components/Carrusel.css"
 
 const images=[
-    '../../public/Card/citrate-mag.png',
-    '../../public/Card/facebook-logo.png',
-    '../../public/Card/Heart Icon.png'
+    '../../public/Card/citrate-mag.JPG',
+    '../../public/Card/Salmon oil.JPG',
+    '../../public/Card/Mens.JPG'
 ]
 
 export const Carrusel = () => { 
@@ -18,7 +18,7 @@ export const Carrusel = () => {
       </div>
       <div class="containerDots" >
              {images.map((_,i)=>(
-                    <input onClick={()=>setImage(i)} class={i===image?"dotSelected":"dots"} />
+                    <input key={i} onClick={()=>setImage(i)} class={i===image?"dotSelected":"dots"} />
              ))}
       </div>
     </>

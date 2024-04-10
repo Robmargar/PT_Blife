@@ -11,7 +11,7 @@
 }
 
 .menu{
-    width: 75%;
+    width: 100%;
 }
 
 .menu-icons{
@@ -55,6 +55,7 @@
 }
 
 .nav-button{
+    position: relative;
     background-color: white;
     border: none;
     cursor: pointer;
@@ -87,6 +88,21 @@ input{
     text-align: center;
     cursor: pointer;
     transition: .4;
+}
+
+.shop-number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background: #DD0606;
+    border-radius: 50px;
+    font-size: 9px;
+    color: white;
+    width: 12px;
+    height: 12px;
+    left: 10px;
+    top: -5px;
 }
 
        
