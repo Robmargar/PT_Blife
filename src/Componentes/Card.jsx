@@ -54,13 +54,13 @@ export const Card = ({name ,description, price,old_price,discount,likes,rating})
           <div class="media-info">
             <p class="T2">COMPARTE</p>
             <div class="media-icons">
-              <a href="">
+              <a href="https://www.facebook.com/blife.mx">
                <img src="../../public/Card/facebook-logo.png" alt="Facebook" />
               </a>
-              <a href="">
+              <a href="https://www.tiktok.com/@blife.mx?_t=8Yt748IrV2x&_r=1">
                 <img src="../../public/Card/x-logo.png" alt="X" />
               </a>
-              <a href="">
+              <a href="https://www.instagram.com/blife.mx/">
                 <img src="../../public/Card/insta-logo.png" alt="Instagram" />
               </a>
             </div>

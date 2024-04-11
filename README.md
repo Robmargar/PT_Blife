@@ -17,6 +17,7 @@ En el proyecto se agregaron las siguientes funcionalidades:
 - Like (corazón).
 - Selector de Estrellas.
 - Carrusel de Imágenes.
+- Redes sociales (linkeadas)
 
 ## Buscador
 
