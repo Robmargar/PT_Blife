@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react'
 import "../Style_Components/Carrusel.css"
 
 const images=[
-    '../../public/Card/citrate-mag.JPG',
-    '../../public/Card/Salmon oil.JPG',
-    '../../public/Card/Mens.JPG'
+    '../../Card/citrate-mag.JPG',
+    '../../Card/Salmon oil.JPG',
+    '../../Card/Mens.JPG'
 ]
 
 export const Carrusel = () => { 
