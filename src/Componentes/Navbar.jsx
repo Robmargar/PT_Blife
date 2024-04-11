@@ -6,7 +6,7 @@ export const Navbar = () => {
     <section>
       <div class="navbar">
         <a href="">
-         <img class="blife-logo" src="../../public/Navbar/Blife.png" alt="" />
+         <img class="blife-logo" src="../../Navbar/Blife.png" alt="" />
         </a>
         <div class="menu">
           <a class="a-menu" href="">Productos</a>
@@ -17,15 +17,15 @@ export const Navbar = () => {
           <div class="container" >
             <input type="text" placeholder="Buscar" />
             <div class="btn">
-              <img class="nav-logo search" src="../../public/Navbar/lupa.png" alt="Logo_busqueda" />
+              <img class="nav-logo search" src="../../Navbar/lupa.png" alt="Logo_busqueda" />
             </div>
           </div>
           <button class="nav-button" >
-            <img class="nav-logo" src="../../public/Navbar/user.png" alt="Logo_Inicio_Sesión" />
+            <img class="nav-logo" src="../../Navbar/user.png" alt="Logo_Inicio_Sesión" />
           </button>
           <button class="nav-button" >
             <div class="shop-number">2</div>
-            <img class="nav-logo" src="../../public/Navbar/Shop.png" alt="Logo_Mi_Tienda" />
+            <img class="nav-logo" src="../../Navbar/Shop.png" alt="Logo_Mi_Tienda" />
           </button>
         </div>
       </div>
