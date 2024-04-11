@@ -1,6 +1,7 @@
 import "../Style_Components/Star.css"
 import "../Functions/star.js"
 
+
 export const Stars = () => {
   return (
     <div class="container">
