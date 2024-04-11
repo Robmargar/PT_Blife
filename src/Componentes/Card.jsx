@@ -26,8 +26,8 @@ export const Card = ({name ,description, price,old_price,discount,likes,rating})
     <div class="card">
        <section class="likes-cont">
           <div onClick={()=>likesCount()} class="like">
-            {like.isactive?<img class="heart" src="../../public/Card/red-heart.svg" alt="" />:
-            <img class="heart" src="../../public/Card/Heart Icon.png" alt="" />
+            {like.isactive?<img class="heart" src="../../Card/red-heart.svg" alt="" />:
+            <img class="heart" src="../../Card/Heart Icon.png" alt="" />
             }
             <div>{like.number}</div>
           </div>
