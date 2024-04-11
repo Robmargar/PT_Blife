@@ -21,4 +21,3 @@ jobs:
         with:
           branch: master
           folder: dist
-          clean: true`
