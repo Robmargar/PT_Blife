@@ -1,4 +1,4 @@
-name: Blife RobertoMtz
+name: Build and Deploy
 on:
   push:
     branches:
@@ -8,17 +8,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout 🛎️
         uses: actions/checkout@v4
 
-      - name: Install packages
-        run: npm ci
+      - name: Install and Build
+        run: |
+          npm install
+          npm run build
 
-      - name: Bundle
-        run: npm run build
-
-      - name: Deploy
+      - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: master
           folder: dist
+          clean: true`
